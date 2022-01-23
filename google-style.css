@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  /* border: 1px solid black; */
+  height: 100px;
+}
+
+.üst-sağ {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.üst-sol {
+  float: left;
+  padding: 20px;
+}
+
+#signin {
+
+    border: 1px solid black;
+}
+
+#signin {
+    color: white;
+    background-color: rgb(14, 14, 201);
+    padding-right: 10px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+#signin:hover {
+    box-shadow: 10px 10px 20px gray;
+    background-color: rgb(93, 93, 238);
+}
+
+#ikon:hover {
+    opacity: 0.3 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    text-decoration: 1px underline black;
+}
+
+a:visited{
+    color: black;
+}
+
+#google {
+    width: 25%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+#arama {
+    width: 80%;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding-right: 60px;
+    padding-left: 50px ;
+    margin-left: 50px;
+}
+
+#arama:hover {
+    box-shadow: 5px 5px 10px grey;
+}
+
+#ikinci_arama {
+    width: 50%;
+
+    margin: auto;
+
+}
+
+#mercek {
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+#mik {
+    position: relative;
+    top: 45px;
+    left: 75%;
+}
+
+#buton {
+    margin: 30px;
+    padding-left:190px ;
+    margin-bottom: 10px;
+}
+
+.but2 {
+    padding: 10px;
+    margin-left: 10px;
+    border: hidden;
+}
+.but2:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+#son {
+    width: 300px;
+    margin: auto;
+
+}
+
+
+#dil {
+    color: blue;
+}
+
